@@ -29,4 +29,14 @@ public class Dog extends Animal {
     public String toString() {
         return "Собачка " + name;
     }
+
+    @Override
+    public void breathe() {
+        System.out.println("Дышу атмосферным воздухом");
+    }
+
+    @Override
+    public void eating() {
+        System.out.println("Ем, что хозяин даст");
+    }
 }
