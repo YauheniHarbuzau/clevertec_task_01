@@ -1,3 +1,2 @@
-*
-!src/
-!.gitignore
+/.idea
+clevertec_task_01.iml
