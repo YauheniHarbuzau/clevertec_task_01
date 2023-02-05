@@ -4,6 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // here are some fixes
+        // here are some fixes in Main class
     }
 }
