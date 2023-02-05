@@ -29,4 +29,14 @@ public class Cat extends Animal {
     public String toString() {
         return "Котик " + name;
     }
+
+    @Override
+    public void breathe() {
+        System.out.println("Дышу атмосферным воздухом");
+    }
+
+    @Override
+    public void eating() {
+        System.out.println("Ем мясо, пью молочко");
+    }
 }
