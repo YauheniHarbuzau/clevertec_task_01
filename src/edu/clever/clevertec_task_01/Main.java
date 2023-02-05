@@ -1,6 +1,7 @@
 package edu.clever.clevertec_task_01;
 
 import edu.clever.clevertec_task_01.entity.Cat;
+import edu.clever.clevertec_task_01.entity.Dog;
 import edu.clever.clevertec_task_01.entity.parent.Animal;
 
 public class Main {
@@ -9,5 +10,8 @@ public class Main {
 
         Animal cat = new Cat("Борис");
         System.out.println(cat);
+
+        Animal dog = new Dog("Полкан");
+        System.out.println(dog);
     }
 }
